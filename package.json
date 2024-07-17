@@ -9,4 +9,7 @@
     "@google-cloud/dialogflow": "^4.0.0",
     "uuid": "^8.3.2"
   }
+  "scripts": {
+    "start": "node server.js"
+  }
 }
