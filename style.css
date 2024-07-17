@@ -1,0 +1,103 @@
+
+.message {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  max-width: 70%;
+  word-wrap: break-word;
+}
+.user-message {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #c4e0ff;
+  color: black;
+  align-self: flex-end;
+  width: auto;
+  max-width: 40%;
+  padding: 10px;
+  border-radius: 8px;
+}
+.bot-message {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  background-color: #e9ecef;
+  color: black;
+  width: auto;
+  max-width: 60%;
+  align-self: flex-start;
+  padding: 10px;
+  border-radius: 8px;
+}
+#message-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 150px); /* Adjust based on header and form height */
+  overflow-y: scroll;
+  padding: 20px;
+}
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.bottom-form {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.btn-primary img {
+  filter: invert(1);
+}
+.custom-btn {
+  height: 70px;
+  width: 80px;
+}
+.custom-input {
+  outline: 2px solid #b8b8b8;
+  outline-offset: 1px;
+  width: 250px;
+  font-size: 1.25rem;
+}
+.custom-input::placeholder {
+  color: #888;
+  font-style: italic;
+}
+.input-group .form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.input-group .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.images {
+  width: 60px;
+  height: 60px;
+}
+
+.footer-input{
+  padding: 50px;
+}
+
+@media (max-width:768px) {
+  .footer-input{
+    padding: 15px;
+  }
+  .custom-btn {
+    height: 60px;
+    width: 80px;
+  }
+  .custom-input {
+    font-size: 1rem;
+  }
+}
+
+.logo{
+  letter-spacing: 4px;
+}
+body
+{
+  background-image: url(./images/45.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
